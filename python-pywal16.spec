@@ -1,5 +1,5 @@
 Name:		python-pywal16
-Version:	3.8.13
+Version:	3.8.15
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/pywal16/pywal16-%{version}.tar.gz
 Summary:	Generate and change color-schemes on the fly
@@ -17,7 +17,7 @@ Provides: pywal
 Generate and change color-schemes on the fly
 
 %prep
-%autosetup -p1 -n pywal16-%{version}
+%autosetup -p1 -n pywal16-3.8.15
 
 %files
 %{_bindir}/wal
